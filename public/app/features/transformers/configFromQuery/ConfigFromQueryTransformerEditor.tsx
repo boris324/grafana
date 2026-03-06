@@ -83,6 +83,7 @@ export function ConfigFromQueryTransformerEditor({ input, onChange, options }: P
             data={input}
             options={currentMatcher.options}
             onChange={onMatcherConfigChange}
+            scope={currentMatcher.scope}
           />
         </InlineField>
       </InlineFieldRow>
